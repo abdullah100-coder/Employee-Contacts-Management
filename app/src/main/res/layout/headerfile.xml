@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="240dp"
+    android:background="#242F9B"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingTop="20dp">
+
+    <ImageView
+        android:layout_width="93dp"
+        android:layout_height="78dp"
+        android:src="@drawable/asset" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="GUB Phonebook"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/GUB_Contacts/Work/app/src/main/res/layout/activity_about_us.xml" value="0.34479166666666666" />
+        <entry key="..\:/Android/GUB_Contacts/Work/app/src/main/res/layout/activity_academics.xml" value="0.1" />
+        <entry key="..\:/Android/GUB_Contacts/Work/app/src/main/res/layout/activity_add_info.xml" value="0.3351449275362319" />
+        <entry key="..\:/Android/GUB_Contacts/Work/app/src/main/res/layout/activity_admin.xml" value="0.16540020263424518" />
+        <entry key="..\:/Android/GUB_Contacts/Work/app/src/main/res/layout/activity_admin_category.xml" value="0.29846014492753625" />
+        <entry key="..\:/Android/GUB_Contacts/Work/app/src/main/res/layout/activity_adminstration.xml" value="0.34010416666666665" />
+        <entry key="..\:/Android/GUB_Contacts/Work/app/src/main/res/layout/activity_adminstration_add_info.xml" value="0.33" />
+        <entry key="..\:/Android/GUB_Contacts/Work/app/src/main/res/layout/activity_cat_academics.xml" value="0.16540020263424518" />
+        <entry key="..\:/Android/GUB_Contacts/Work/app/src/main/res/layout/activity_create_account.xml" value="0.16540020263424518" />
+        <entry key="..\:/Android/GUB_Contacts/Work/app/src/main/res/layout/activity_faculty_and_dco.xml" value="0.33" />
+        <entry key="..\:/Android/GUB_Contacts/Work/app/src/main/res/layout/activity_help.xml" value="0.33" />
+        <entry key="..\:/Android/GUB_Contacts/Work/app/src/main/res/layout/activity_login.xml" value="0.16540020263424518" />
+        <entry key="..\:/Android/GUB_Contacts/Work/app/src/main/res/layout/activity_main.xml" value="0.16540020263424518" />
+        <entry key="..\:/Android/GUB_Contacts/Work/app/src/main/res/layout/activity_registrar_office.xml" value="0.33" />
+        <entry key="..\:/Android/GUB_Contacts/Work/app/src/main/res/layout/activity_search.xml" value="0.20161290322580644" />
+        <entry key="..\:/Android/GUB_Contacts/Work/app/src/main/res/layout/activity_second_phase.xml" value="0.33" />
+        <entry key="..\:/Android/GUB_Contacts/Work/app/src/main/res/layout/activity_show_data.xml" value="0.33" />
+        <entry key="..\:/Android/GUB_Contacts/Work/app/src/main/res/layout/activity_speed_dail.xml" value="0.34479166666666666" />
+        <entry key="..\:/Android/GUB_Contacts/Work/app/src/main/res/layout/activity_support_staff.xml" value="0.34479166666666666" />
+        <entry key="..\:/Android/GUB_Contacts/Work/app/src/main/res/layout/activity_top_add_info.xml" value="0.16540020263424518" />
+        <entry key="..\:/Android/GUB_Contacts/Work/app/src/main/res/layout/activity_update.xml" value="0.16540020263424518" />
+        <entry key="..\:/Android/GUB_Contacts/Work/app/src/main/res/layout/headerfile.xml" value="0.26902173913043476" />
+        <entry key="..\:/Android/GUB_Contacts/Work/app/src/main/res/layout/list_item.xml" value="0.33" />
+        <entry key="..\:/Android/GUB_Contacts/Work/app/src/main/res/menu/sidemenu.xml" value="0.34479166666666666" />
+        <entry key="..\:/Android/GUB_Contacts/Work/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.62" />
+        <entry key="..\:/GUB_Contacts/Work/app/src/main/res/layout/activity_adminstration.xml" value="0.34479166666666666" />
+        <entry key="..\:/GUB_Contacts/Work/app/src/main/res/layout/activity_second_phase.xml" value="0.1" />
+        <entry key="..\:/Work/app/src/main/res/drawable-v24/add_expenses_background.xml" value="0.2325" />
+        <entry key="..\:/Work/app/src/main/res/drawable-v24/category.xml" value="0.2325" />
+        <entry key="..\:/Work/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.342" />
+        <entry key="..\:/Work/app/src/main/res/drawable-v24/note_2.xml" value="0.2325" />
+        <entry key="..\:/Work/app/src/main/res/drawable-v24/rounded_add_expenses.xml" value="0.2325" />
+        <entry key="..\:/Work/app/src/main/res/drawable-v24/rounded_edit2.xml" value="0.2275" />
+        <entry key="..\:/Work/app/src/main/res/drawable/button.xml" value="0.3465" />
+        <entry key="..\:/Work/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3465" />
+        <entry key="..\:/Work/app/src/main/res/drawable/icon_lock.xml" value="0.1" />
+        <entry key="..\:/Work/app/src/main/res/drawable/icon_people.xml" value="0.1" />
+        <entry key="..\:/Work/app/src/main/res/drawable/myrect.xml" value="0.342" />
+        <entry key="..\:/Work/app/src/main/res/drawable/ripple.xml" value="0.1" />
+        <entry key="..\:/Work/app/src/main/res/drawable/ripple_effect.xml" value="0.128" />
+        <entry key="..\:/Work/app/src/main/res/drawable/rounded_edit.xml" value="0.1" />
+        <entry key="..\:/Work/app/src/main/res/drawable/rounded_layout.xml" value="0.337" />
+        <entry key="..\:/Work/app/src/main/res/drawable/rounded_red.xml" value="0.2275" />
+        <entry key="..\:/Work/app/src/main/res/drawable/rounded_textview.xml" value="0.337" />
+        <entry key="..\:/Work/app/src/main/res/drawable/rounded_textview2.xml" value="0.2385" />
+        <entry key="..\:/Work/app/src/main/res/font/fonts.xml" value="0.375" />
+        <entry key="..\:/Work/app/src/main/res/layout/activity_academics.xml" value="0.33" />
+        <entry key="..\:/Work/app/src/main/res/layout/activity_add_info.xml" value="0.33" />
+        <entry key="..\:/Work/app/src/main/res/layout/activity_admin.xml" value="0.33" />
+        <entry key="..\:/Work/app/src/main/res/layout/activity_admin_category.xml" value="0.5" />
+        <entry key="..\:/Work/app/src/main/res/layout/activity_adminstration.xml" value="0.1" />
+        <entry key="..\:/Work/app/src/main/res/layout/activity_adminstration_add_info.xml" value="0.25" />
+        <entry key="..\:/Work/app/src/main/res/layout/activity_cat_academics.xml" value="0.24583333333333332" />
+        <entry key="..\:/Work/app/src/main/res/layout/activity_category.xml" value="0.25" />
+        <entry key="..\:/Work/app/src/main/res/layout/activity_create_account.xml" value="0.16666666666666666" />
+        <entry key="..\:/Work/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Work/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Work/app/src/main/res/layout/activity_search.xml" value="0.34479166666666666" />
+        <entry key="..\:/Work/app/src/main/res/layout/activity_second_phase.xml" value="0.33" />
+        <entry key="..\:/Work/app/src/main/res/layout/activity_show_data.xml" value="0.33" />
+        <entry key="..\:/Work/app/src/main/res/layout/activity_speed_dail.xml" value="0.34479166666666666" />
+        <entry key="..\:/Work/app/src/main/res/layout/activity_top_add_info.xml" value="0.33" />
+        <entry key="..\:/Work/app/src/main/res/layout/activity_update.xml" value="0.22509057971014493" />
+        <entry key="..\:/Work/app/src/main/res/layout/headerfile.xml" value="0.33" />
+        <entry key="..\:/Work/app/src/main/res/layout/list_item.xml" value="0.22916666666666666" />
+        <entry key="..\:/Work/app/src/main/res/layout/sample_view.xml" value="0.2554347826086957" />
+        <entry key="..\:/Work/app/src/main/res/menu/sidemenu.xml" value="0.1" />
+        <entry key="..\:/Work/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.316" />
+        <entry key="..\:/Work/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.316" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

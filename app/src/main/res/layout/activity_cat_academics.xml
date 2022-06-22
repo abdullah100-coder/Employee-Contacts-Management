@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cat_academics"
+    android:background="@color/screen"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="600dp">
+
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#242F9B"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:title="GUB Contacts"
+                app:titleMarginStart="10dp"
+                app:titleTextColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/fc"
+                android:layout_width="310dp"
+                android:layout_height="62dp"
+                android:layout_marginTop="244dp"
+                android:background="@drawable/add_expenses_background"
+                android:drawableLeft="@drawable/education"
+                android:drawablePadding="10dp"
+                android:elevation="2dp"
+                android:ems="10"
+                android:gravity="left|center"
+                android:paddingLeft="12dp"
+                android:text="Faculty Member"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+
+            <TextView
+                android:id="@+id/dco"
+                android:layout_width="310dp"
+                android:layout_height="62dp"
+                android:layout_marginTop="56dp"
+                android:background="@drawable/add_expenses_background"
+                android:drawableLeft="@drawable/coordicatior"
+                android:drawablePadding="10dp"
+                android:elevation="2dp"
+                android:ems="10"
+                android:gravity="left|center"
+                android:paddingLeft="12dp"
+                android:text="Department Coordinator"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fc" />
+
+            <TextView
+                android:id="@+id/accademics"
+                android:layout_width="164dp"
+                android:layout_height="52dp"
+                android:elevation="2dp"
+                android:foregroundGravity="left|center"
+                android:gravity="left|center"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dco" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+
+
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/headerfile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/sidemenu" />
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
+
+

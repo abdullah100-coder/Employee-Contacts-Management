@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adminstration"
+    android:background="@color/screen"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#242F9B"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:title="GUB Contacts"
+                app:titleMarginStart="10dp"
+                app:titleTextColor="#ffffff" />
+
+
+
+            <LinearLayout
+                android:id="@+id/reg"
+                android:layout_width="320dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="50dp"
+                android:elevation="2dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:background="@drawable/add_expenses_background"
+                android:layout_gravity="center">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/reg"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="3dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="8dp"
+
+                    android:text="Registrar office"
+                    android:textColor="@color/black"
+                    android:paddingTop="3dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/con"
+                android:layout_width="320dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="30dp"
+                android:elevation="2dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:background="@drawable/add_expenses_background"
+                android:layout_gravity="center">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/control"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="3dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Controller's office"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:paddingTop="3dp"
+                    android:textSize="22sp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="18dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/POC"
+                android:layout_width="320dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="30dp"
+                android:elevation="2dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:background="@drawable/add_expenses_background"
+                android:layout_gravity="center">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/proctor"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="3dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Proctor's office"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:paddingTop="3dp"
+                    android:textSize="22sp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="18dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/sa"
+                android:layout_width="320dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="30dp"
+                android:elevation="2dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:background="@drawable/add_expenses_background"
+                android:layout_gravity="center">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/faculty"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="3dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="3dp"
+                    android:text="Student affair's office"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="18dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/admission"
+                android:layout_width="320dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="30dp"
+                android:elevation="2dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:background="@drawable/add_expenses_background"
+                android:layout_gravity="center">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/admission"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="3dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Admission office"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:paddingTop="3dp"
+                    android:textSize="22sp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="18dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/library"
+                android:layout_width="320dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="30dp"
+                android:elevation="2dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:background="@drawable/add_expenses_background"
+                android:layout_gravity="center">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/library"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="3dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Library office"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:paddingTop="3dp"
+                    android:textSize="22sp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="18dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/it"
+                android:layout_width="320dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="30dp"
+                android:elevation="2dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:background="@drawable/add_expenses_background"
+                android:layout_gravity="center">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/it"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="3dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IT Cell"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:paddingTop="3dp"
+                    android:textSize="22sp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="18dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/accounts"
+                android:layout_width="320dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="30dp"
+                android:elevation="2dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:background="@drawable/add_expenses_background"
+                android:layout_gravity="center">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/accounts"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="3dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Account's office"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:paddingTop="3dp"
+                    android:textSize="22sp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="18dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/pr"
+                android:layout_width="320dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="30dp"
+                android:elevation="2dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:background="@drawable/add_expenses_background"
+                android:layout_gravity="center">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/relation"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="3dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Public relation office"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:paddingTop="3dp"
+                    android:textSize="22sp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="18dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/medical"
+                android:layout_width="320dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="30dp"
+                android:elevation="2dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:background="@drawable/add_expenses_background"
+                android:layout_gravity="center">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/medical"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="3dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Medical Center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:paddingTop="3dp"
+                    android:textSize="22sp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="18dp"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/headerfile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/sidemenu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

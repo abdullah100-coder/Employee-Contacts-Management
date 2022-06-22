@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gubcontacts">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GUBContacts">
+        <activity
+            android:name=".support_staff"
+            android:exported="false" />
+        <activity
+            android:name=".registrar_office"
+            android:exported="false" />
+        <activity
+            android:name=".faculty_and_dco"
+            android:exported="false" />
+        <activity
+            android:name=".show_data"
+            android:exported="false" />
+        <activity
+            android:name=".adminstration"
+            android:exported="false" />
+        <activity
+            android:name=".about_us"
+            android:exported="false" />
+        <activity
+            android:name=".help"
+            android:exported="false" />
+        <activity
+            android:name=".search"
+            android:exported="false" />
+        <activity
+            android:name=".speed_dail"
+            android:exported="false" />
+        <activity
+            android:name=".academics"
+            android:exported="false" />
+        <activity
+            android:name=".cat_academics"
+            android:exported="false" />
+        <activity
+            android:name=".second_phase"
+            android:exported="false" />
+        <activity
+            android:name=".top_add_info"
+            android:exported="false" />
+        <activity
+            android:name=".adminstration_add_info"
+            android:exported="false" />
+        <activity
+            android:name=".admin_category"
+            android:exported="false" />
+        <activity
+            android:name=".create_account"
+            android:exported="false" />
+        <activity
+            android:name=".add_info"
+            android:exported="false" />
+        <activity
+            android:name=".update"
+            android:exported="false" />
+        <activity
+            android:name=".admin"
+            android:exported="false" />
+        <activity
+            android:name=".login_activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

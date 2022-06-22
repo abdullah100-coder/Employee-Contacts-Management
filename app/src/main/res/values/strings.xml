@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">GUB Contacts</string>
+    <string-array name="category_name">
+        <item>Faculty Member</item>
+        <item>Department Coordinator</item>
+    </string-array>
+
+    <string-array name="Department_name">
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>Textile</item>
+        <item>GBS</item>
+        <item>Law</item>
+        <item>English</item>
+        <item>SOC</item>
+        <item>JMC</item>
+    </string-array>
+
+    <string-array name="Campus_name">
+        <item>City Campus</item>
+        <item>Permanent Campus</item>
+    </string-array>
+
+
+    <string name="navigation_open">Open Navigation drawer</string>
+    <string name="navigation_close">Close Navigation drawer</string>
+</resources>
